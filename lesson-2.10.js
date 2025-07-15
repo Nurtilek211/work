@@ -7,7 +7,7 @@ let str = document.querySelector(".str")
 let trafick = document.querySelector(".trafick")
 let ligt2 = document.querySelector(".ligh2")
 
-
+// asasd
 let number1 = document.querySelector(".number1")
 let red1 = document.querySelector(".red1")
 let green1 = document.querySelector(".green1")
