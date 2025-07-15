@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #f4f4f4;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 1000px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px black;
+    border-radius: 8px;
+    padding: 20px;  
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    position: relative;
+}
+
+.trafick{
+    width: 240px;
+    height: 600px;
+    border: 30px solid black;
+    border-radius: 28px 28px 28px 0;
+}
+
+.box{
+    width: 240px;
+    height: 240px;
+    font-size: 145px;
+    color: red;
+    border: 30px solid black;
+    border-radius: 28px 0 0 28px ;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+}
+
+.ligh2{
+    width: 180px;
+    height: 180px;
+    border: 20px solid black;
+    border-radius: 50%;   
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(31, 31, 31);
+}
+
+.ligh3{
+    width: 180px;
+    height: 180px;
+    border: 20px solid black;
+    border-radius: 50%;   
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(31, 31, 31);
+}
+
+.ligh {
+    width: 180px;
+    height: 180px;
+    border: 20px solid black;
+    border-radius: 50%;   
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ligh1 {
+    width: 180px;
+    height: 180px;
+    border: 20px solid black;
+    border-radius: 50%;   
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ligh4 {
+    width: 180px;
+    height: 180px;
+    border: 20px solid black;
+    border-radius: 50%;   
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: black;
+}
+
+.number{
+    font-size: 64px;
+    font-weight: 900;
+}
+
+
+
+
+.trafick1{
+    width: 240px;
+    height: 600px;
+    border: 30px solid green;
+    border-radius: 28px 28px 0 28px ;
+}
+
+.box1{
+    width: 240px;
+    height: 240px;
+    font-size: 145px;
+    border: 30px solid green;
+    color: green;
+    border-radius: 0 28px 28px 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+
+}
+
+.red1{
+    background-color: black;
+}
+
+.yellow1{
+    background-color: yellow;
+}
+
+.green1{
+    background-color: green;
+}
+
+.number1{
+    font-size: 64px;
+    font-weight: 900;
+    color: aqua;
+}
+
+.item{
+    border: 1px solid red;
+
+    display: flex;
+    align-items: end;
+}
+
